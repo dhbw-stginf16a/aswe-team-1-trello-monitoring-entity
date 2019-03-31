@@ -1,0 +1,146 @@
+[
+    {
+        "desc": "",
+        "due": null,
+        "dueComplete": false,
+        "name": "Infrastructure as Code, Immutable Infrastructure, Declarative vs. Procedural Grundlagen: siehe https://blog.gruntwork.io/why-we-use-terraform-and-not-chef-puppet-ansible-saltstack-or-cloudformation-7989dad2865c"
+    },
+    {
+        "desc": "",
+        "due": null,
+        "dueComplete": false,
+        "name": "Provisioning mit Vagrant, Packer sowie AWS/Azure/GCP API   Beispiele: SaltStack https://medium.com/devopslinks/automating-aws-infrastructure-using-saltstack-2b40aeadc7a9"
+    },
+    {
+        "desc": "Infos zu Salt: https://docs.saltstack.com/en/latest/topics/tutorials/walkthrough.html sowie https://www.tutorialspoint.com/saltstack/ und https://docs.saltstack.com/en/getstarted/ und ",
+        "due": null,
+        "dueComplete": false,
+        "name": "Config Management / Deployment Tools: ansible, chef, salt und puppet"
+    },
+    {
+        "desc": "",
+        "due": null,
+        "dueComplete": false,
+        "name": "Build Pipeline \u00dcbersicht: Automatisierter Build, Test, Deployment, Monitoring"
+    },
+    {
+        "desc": "",
+        "due": null,
+        "dueComplete": false,
+        "name": "Automatisiertes Testen mit SonarCube, PhantomJS, Windmill, Selenium, Cucumber"
+    },
+    {
+        "desc": "Zabbix: zum Beispiel nach \"github mujina zabbix-learning\" suchen - mit docker compose Umgebung aufsetzen und dann quickstart durchgehen",
+        "due": null,
+        "dueComplete": false,
+        "name": "Monitoring mit Nagios, Zabbix und ELK-Stack, Graphite, AWS CloudWatch -"
+    },
+    {
+        "desc": "https://docs.gitlab.com/ee/topics/autodevops/",
+        "due": null,
+        "dueComplete": false,
+        "name": "Gitlab Auto DevOps with Kubernetes"
+    },
+    {
+        "desc": "",
+        "due": null,
+        "dueComplete": false,
+        "name": "Build, Deployment und Tests mit TravisCI"
+    },
+    {
+        "desc": "",
+        "due": null,
+        "dueComplete": false,
+        "name": "Zusammenarbeit (Mindset, Organisationsentwicklung, Scrum etc Tools wie Jira etc); Voraussetzungen zur gelungenen Einf\u00fchrung von DevOps"
+    },
+    {
+        "desc": "",
+        "due": null,
+        "dueComplete": false,
+        "name": "was ist DevOps und was bringt es (DevOps Kultur und Unterschiede zum traditionellen Unternehmen) siehe"
+    },
+    {
+        "desc": "es ist wenig sinnvoll, zehn Nachmittage an einem gro\u00dfen Thema zu werkeln, um kurz vor Schlu\u00df festzustellen, dass nicht wirklich viel bei rausgekommen ist. Daher besser: Zwischenschritte definieren, so dass jederzeit klar ist, wie es voran geht, und so dass man ggf das Ziel nachjustieren kann.",
+        "due": null,
+        "dueComplete": false,
+        "name": "Vorgehen zur Erarbeitung des Themas: einzelne Sprints definieren"
+    },
+    {
+        "desc": "falls jemand Ideen oder Kommentare dazu hat, wie der Fortschritt und die Ergebnisse der Projekte festgehalten und den anderen zug\u00e4nglich gemacht werden k\u00f6nnen: bitte mitteilen! Notfalls gehts \u00fcber Trello, aber vielleicht gibt es ja sinnvollere Wege",
+        "due": null,
+        "dueComplete": false,
+        "name": "Ergebnissicherung im Kurs"
+    },
+    {
+        "desc": "Plan: keine Pr\u00fcfung, sondern Benotung von Projekten, z.B. anhand von\n( ) Zieldefinition klar bzw messbar?\n( ) Informationssammlung effektiv?\n( ) Implementierung erfolgreich?\n( ) Stimmung gut?\n( ) Dokumentation verst\u00e4ndlich?",
+        "due": null,
+        "dueComplete": false,
+        "name": "Bewertung der Projekte"
+    },
+    {
+        "desc": "",
+        "due": null,
+        "dueComplete": false,
+        "name": "Vertiefung: https://www.gocd.org/2017/09/05/misconceptions-patterns-devops-adoption"
+    },
+    {
+        "desc": "",
+        "due": null,
+        "dueComplete": false,
+        "name": "Resourcen: Literatur: \"Continuous Delivery\" von Eberhard Wolff"
+    },
+    {
+        "desc": "siehe https://victorops.com/blog/choose-chatbotfrom-hubot-yetibot-need-know",
+        "due": null,
+        "dueComplete": false,
+        "name": "ChatOps mit Hubot, Lita und Err"
+    },
+    {
+        "desc": "",
+        "due": null,
+        "dueComplete": false,
+        "name": "welche Tools scheinen grad aktuell zu sein? => stepstone buzzwords"
+    },
+    {
+        "desc": "",
+        "due": null,
+        "dueComplete": false,
+        "name": "https://www.ecs-digital.co.uk/blog/30-devops-tools-you-could-be-using"
+    },
+    {
+        "desc": "",
+        "due": null,
+        "dueComplete": false,
+        "name": "Praktische Umsetzung des Themas: flask/web api demo app basteln, auf github kopieren und dann auch mit circleCi verbinden"
+    },
+    {
+        "desc": "",
+        "due": null,
+        "dueComplete": false,
+        "name": "Pr\u00e4sentation f\u00fcr zuk\u00fcnftige Einf\u00fchrung in DevOps"
+    },
+    {
+        "desc": "",
+        "due": null,
+        "dueComplete": false,
+        "name": "Praktische Umsetzung im Kurs: Hetzner Cloud oder AWS Account anlegen, per terraform deployen und am Abend wieder deprovisionieren"
+    },
+    {
+        "desc": "https://storage.googleapis.com/cdn.thenewstack.io/media/2017/11/9e09392d-k8s_deployment_strategies.png",
+        "due": null,
+        "dueComplete": false,
+        "name": "Deployment Strategien, grafische Deployment Tools: Spinnaker, GoCD"
+    },
+    {
+        "desc": "https://www.icloud.com/keynote-live/sc:0KwcgOJBSAEa8P9vbtQ_KY7CtsYpWG3LU6knJO8dSkTFDaOIvjtacDybMXZDcLG2Qy2",
+        "due": null,
+        "dueComplete": false,
+        "name": "Docker Grundlagen, Container Orchestrierung mit Kubernetes https://training.play-with-docker.com/"
+    },
+    {
+        "desc": "Projektaufbau, automatisierter Build, Test, Deployment",
+        "due": null,
+        "dueComplete": false,
+        "name": "Build tools: maven, gradle, Jenkins etc"
+    }
+]
