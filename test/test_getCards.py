@@ -31,8 +31,6 @@ class TestRequest(TestConnexion):
         }
 
         preferences = {
-            'trello_token': '12345',
-            'trello_key': 'abc12345',
             'trello_board': 'abc'
         }
         requests_mock.get(f'{self.CENTRAL_NODE_BASE_URL}/preferences/user/AntonHynkel', status_code=200, json=preferences)

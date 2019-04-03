@@ -19,9 +19,16 @@ class PrefStoreClient:
         assert r.status_code == 200
         return r.json()
 
+    def get_global_prefs(self):
+        r = requests.get("{}/preferences/global".format(self.base_url), timeout=10)
+        assert r.status_code == 200
+        return r.json()
+
 PREFSTORE_CLIENT = PrefStoreClient(CENTRAL_NODE_BASE_URL)
 
 
 def getTrelloData(userName):
     userPrefs = PREFSTORE_CLIENT.get_user_prefs(userName)
-    return userPrefs['trello_token'], userPrefs['trello_key'], userPrefs['trello_board']
+    globalPrefs = PREFSTORE_CLIENT.get_global_prefs()
+
+    return globalPrefs['trello_token'], globalPrefs['trello_key'], userPrefs['trello_board']
